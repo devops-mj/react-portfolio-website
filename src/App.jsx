@@ -35,10 +35,75 @@ function App() {
       </section>
 
       {/* Projects Section */}
-      <section className="projects">
-        <h2>Projects</h2>
-        <p className="projects-placeholder">Projects coming soon as I build out my portfolio!</p>
-      </section>
+<section className="projects">
+  <h2>Projects</h2>
+  <div className="projects-grid">
+    
+    {/* Weather App */}
+    <div className="project-card">
+      <h3>Weather Forecast App</h3>
+      <p className="project-description">
+        A weather application that displays current conditions and 5-day forecast for any city using the OpenWeatherMap API.
+      </p>
+      <div className="project-tech">
+        <span className="tech-badge">React</span>
+        <span className="tech-badge">API Integration</span>
+        <span className="tech-badge">Async/Await</span>
+      </div>
+      <a 
+        href="https://devops-mj.github.io/weather-app/" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="project-link"
+      >
+        View Live Demo →
+      </a>
+    </div>
+
+    {/* Todo App */}
+    <div className="project-card">
+      <h3>Todo List App</h3>
+      <p className="project-description">
+        A task management application featuring CRUD operations, filtering, and data persistence using localStorage.
+      </p>
+      <div className="project-tech">
+        <span className="tech-badge">React</span>
+        <span className="tech-badge">localStorage</span>
+        <span className="tech-badge">useEffect</span>
+      </div>
+      <a 
+        href="https://devops-mj.github.io/todo-app/" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="project-link"
+      >
+        View Live Demo →
+      </a>
+    </div>
+
+    {/* Military Supply Depot */}
+    <div className="project-card">
+      <h3>Military Supply Depot</h3>
+      <p className="project-description">
+        An e-commerce product filtering application with search, category filters, price ranges, and sorting functionality.
+      </p>
+      <div className="project-tech">
+        <span className="tech-badge">React</span>
+        <span className="tech-badge">Complex State</span>
+        <span className="tech-badge">E-commerce</span>
+      </div>
+      <a 
+        href="https://devops-mj.github.io/product-filter-military/" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="project-link"
+      >
+        View Live Demo →
+      </a>
+    </div>
+
+  </div>
+</section>
 
       {/* Contact Section */}
       <section className="contact">
