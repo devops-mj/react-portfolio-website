@@ -102,9 +102,28 @@ function App() {
       </a>
     </div>
 
+    {/* Expense Tracker */}
+    <div className="project-card">
+      <h3>Freelancer Expense Tracker</h3>
+      <p className="project-description">
+        A financial tracking application for freelancers with income/expense management, categorization, and visual analytics using pie charts.
+      </p>
+      <div className="project-tech">
+        <span className="tech-badge">React</span>
+        <span className="tech-badge">Recharts</span>
+        <span className="tech-badge">Data Visualization</span>
+      </div>
+      <a 
+        href="https://devops-mj.github.io/expense-tracker/" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="project-link"
+      >
+        View Live Demo →
+      </a>
+     </div> 
   </div>
 </section>
-
       {/* Contact Section */}
       <section className="contact">
         <h2>Get In Touch</h2>
